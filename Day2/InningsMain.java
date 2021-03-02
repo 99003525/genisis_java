@@ -17,10 +17,11 @@ public class InningsMain {
 		i.setRuns(runs);
 		i.setInningsname(innings);
 		
-		System.out.println("name"+i.getTeamname());
-		System.out.println("session"+i.getInningsname());
-		System.out.println("scored:"+i.getRuns());
+		//System.out.println("name"+i.getTeamname());
+		//System.out.println("session"+i.getInningsname());
+		//System.out.println("scored:"+i.getRuns());
 		
+		team.displayInningsDetails();
 	}
 	
 }
