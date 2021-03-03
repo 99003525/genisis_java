@@ -25,7 +25,17 @@ public class Innings {
 	}
 	
 	public void DisplayInningsDetails() {
-		
+		System.out.println("Name:"+this.getTeamname());
+		System.out.println("Scored:"+this.getRuns());
+		String temp=(this.getInningsname());
+		if(temp == "First") 
+		{
+			System.out.println("Need "+(this.getRuns()+1)+" to win");
+		}
+		else
+		{
+			System.out.println("Match Ended");
+		}	
 	}
 	
 }
