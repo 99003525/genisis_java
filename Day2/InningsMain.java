@@ -21,7 +21,7 @@ public class InningsMain {
 		//System.out.println("session"+i.getInningsname());
 		//System.out.println("scored:"+i.getRuns());
 		
-		team.displayInningsDetails();
+		i.DisplayInningsDetails();
 	}
 	
 }
