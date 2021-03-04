@@ -132,7 +132,7 @@ public class VehicleMain {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1. Four Wheeler \n2. fwo Wheeler");
+		System.out.println("1. Four Wheeler \n2. Two Wheeler");
 		String choice = sc.next();
 		
 		switch(choice) {
